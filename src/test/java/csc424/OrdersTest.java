@@ -7,7 +7,7 @@ public class OrdersTest {
 
     @Test
     public void testSubtotal() {
-        Orders calc = new Order();
+        Orders calc = new Orders();
         assertEquals(40.0, calc.subtotal(10.0, 4), 0.0001);
     }
 
